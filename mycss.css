@@ -88,3 +88,65 @@ body{
     font-size: 12px;
     color: white;
 }
+
+.searchbar{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+}
+
+#searchcontain{
+    display: inline-block;
+    border :1px solid;
+    width: 1130px;
+    height: 100%;
+}
+#searchbar{
+    text-align: left;
+    height: 57px;
+}
+#searchbar *{
+    display: inline-block;
+}
+#searchbar img{
+    position: relative;
+    margin-right: 28px;
+    width: 222px;
+    top: 50px;
+}
+#searchbar input{
+    position: relative;
+    top: 33px;
+    width: 508px;
+    height: 57px;
+    margin-right:0;
+    border: 2px solid;
+    border-color: rgb(25,206,96);
+}
+#downarrow{
+    margin-left:0;
+    position: relative;
+    top: 33px;
+    height: 57px;
+    background-color:  white;
+}
+#qcontainer{
+    position: relative;
+    top: 25px;
+    left: -5px;
+    height: 57px;
+    background-color: rgb(25,206,96);
+    
+}
+#qcontainer img{
+    position: relative;
+    top: 17px;
+    left: 15px;
+    width:25px;
+}
+#searchbar p{
+    position: relative;
+    left: 20px;
+    top: -30px;
+    font-size: 12px;
+}
